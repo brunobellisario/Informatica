@@ -30,16 +30,16 @@ _____
 (suscettible a variazioni)
 
 Lezione 1: Introduzione ai sistemi operativi <br>
-Lezione 2: Introduzione ai linguaggi di programmazione
-Lezione 3: Introduzione a R
-Lezione 4: Installazione e risoluzione alle problematiche più comuni in R
-Lezione 5: Tipologie di dati in R
-Lezione 6: Introduzione alle principali libraries per la manipolazione dei dati I
-Lezione 7: Introduzione alle principali libraries per la manipolazione dei dati II
-Lezione 8: Esercitazione
-Lezione 9: Funzioni e programmazione iterativa
-Lezione 10: BigData analysis: concetti ed esempi pratici
-Lezione 11: Shell scripting e bash
+Lezione 2: Introduzione ai linguaggi di programmazione <br>
+Lezione 3: Introduzione a R<br>
+Lezione 4: Installazione e risoluzione alle problematiche più comuni in R<br>
+Lezione 5: Tipologie di dati in R<br>
+Lezione 6: Introduzione alle principali libraries per la manipolazione dei dati I<br>
+Lezione 7: Introduzione alle principali libraries per la manipolazione dei dati II<br>
+Lezione 8: Esercitazione<br>
+Lezione 9: Funzioni e programmazione iterativa<br>
+Lezione 10: BigData analysis: concetti ed esempi pratici<br>
+Lezione 11: Shell scripting e bash<br>
 Lezione 12: Progetto di gruppo II e considerazioni finali
 _____
 
