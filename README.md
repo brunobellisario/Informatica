@@ -29,7 +29,7 @@ _____
 # Programma del corso
 (suscettible a variazioni)
 
-Lezione 1: Introduzione ai sistemi operativi
+Lezione 1: Introduzione ai sistemi operativi <br>
 Lezione 2: Introduzione ai linguaggi di programmazione
 Lezione 3: Introduzione a R
 Lezione 4: Installazione e risoluzione alle problematiche più comuni in R
@@ -45,10 +45,8 @@ _____
 
 # Installare R ed RStudio
 
-To get started with R, you need to acquire your own copy. This appendix will show you how to download R as well as RStudio, a software application that makes R easier to use.
-Both R and RStudio are free and easy to download.
-
-# How to Download and Install R
+Per iniziare con R, devi acquisire la tua copia. Questa appendice ti mostrerà come scaricare R e RStudio, un'applicazione software che semplifica l'utilizzo di R.
+Sia R che RStudio sono gratuiti e facili da scaricare.
 
 R è gestito da un team internazionale di sviluppatori che rendono il linguaggio disponibile attraverso la pagina web di [The Comprehensive R Archive Network](https://cran.r-project.org). La parte superiore della pagina Web fornisce tre collegamenti per scaricare R. Segui il collegamento che descrive il tuo sistema operativo: Windows, Mac o Linux.
 
