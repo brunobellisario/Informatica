@@ -25,33 +25,55 @@ Quando si parla di analisi dati, ci troveremo spesso a creare dei grafici per sp
 
 Nelle ultime lezioni del corso vedremo come creare ed esportare dei report e delle slide, riepiloghiamo gli argomenti visti e le funzioni utilizzate, e vediamo il materiale di supporto. 
 _____
-# Installing R and RStudio
+
+# Programma del corso
+(suscettible a variazioni)
+
+Lezione 1: Introduzione ai sistemi operativi
+Lezione 2: Introduzione ai linguaggi di programmazione
+Lezione 3: Introduzione a R
+Lezione 4: Installazione e risoluzione alle problematiche più comuni in R
+Lezione 5: Tipologie di dati in R
+Lezione 6: Introduzione alle principali libraries per la manipolazione dei dati I
+Lezione 7: Introduzione alle principali libraries per la manipolazione dei dati II
+Lezione 8: Esercitazione
+Lezione 9: Funzioni e programmazione iterativa
+Lezione 10: BigData analysis: concetti ed esempi pratici
+Lezione 11: Shell scripting e bash
+Lezione 12: Progetto di gruppo II e considerazioni finali
+_____
+
+# Installare R ed RStudio
 
 To get started with R, you need to acquire your own copy. This appendix will show you how to download R as well as RStudio, a software application that makes R easier to use.
 Both R and RStudio are free and easy to download.
 
 # How to Download and Install R
 
-R is maintained by an international team of developers who make the language available through the web page of [The Comprehensive R Archive Network](https://cran.r-project.org). The top of the web page provides three links for downloading R. Follow the link that describes your operating system: Windows, Mac, or Linux.
+R è gestito da un team internazionale di sviluppatori che rendono il linguaggio disponibile attraverso la pagina web di [The Comprehensive R Archive Network](https://cran.r-project.org). La parte superiore della pagina Web fornisce tre collegamenti per scaricare R. Segui il collegamento che descrive il tuo sistema operativo: Windows, Mac o Linux.
 
 # A.1.1 Windows
 
-To install R on Windows, click the “Download R for Windows” link. Then click the “base” link. Next, click the first link at the top of the new page. This link should say something like “Download R 3.0.3 for Windows,” except the 3.0.3 will be replaced by the most current version of R. The link downloads an installer program, which installs the most up-to-date version of R for Windows. Run this program and step through the installation wizard that appears. The wizard will install R into your program files folders and place a shortcut in your Start menu. Note that you’ll need to have all of the appropriate administration privileges to install new software on your machine.
+Per installare R su Windows, fare clic sul collegamento "Scarica R per Windows". Quindi fare clic sul collegamento "base". Successivamente, fai clic sul primo collegamento nella parte superiore della nuova pagina. Questo collegamento dovrebbe dire qualcosa come "Scarica R 3.0.3 per Windows", tranne per il fatto che la 3.0.3 verrà sostituita dalla versione più recente di R. Il collegamento scarica un programma di installazione, che installa la versione più aggiornata di R per Windows. Esegui questo programma e segui la procedura guidata di installazione visualizzata. La procedura guidata installerà R nelle cartelle dei file di programma e inserirà un collegamento nel menu Start. Tieni presente che dovrai disporre di tutti i privilegi di amministrazione appropriati per installare il nuovo software sul tuo computer.
 
 # A.1.2 Mac
 
-To install R on a Mac, click the “Download R for Mac” link. Next, click on the R-3.0.3 package link (or the package link for the most current release of R). An installer will download to guide you through the installation process, which is very easy. The installer lets you customize your installation, but the defaults will be suitable for most users. I’ve never found a reason to change them. If your computer requires a password before installing new progams, you’ll need it here.
+Per installare R su Mac, fare clic sul collegamento "Scarica R per Mac". Successivamente, fare clic sul collegamento al pacchetto R-3.0.3 (o sul collegamento al pacchetto per la versione più recente di R). Verrà scaricato un programma di installazione che ti guiderà attraverso il processo di installazione, che è molto semplice. Il programma di installazione ti consente di personalizzare la tua installazione, ma le impostazioni predefinite saranno adatte alla maggior parte degli utenti. Non ho mai trovato un motivo per cambiarli. Se il tuo computer richiede una password prima di installare nuovi programmi, ne avrai bisogno qui.
+
+# IMPORTANTE. 
+Con l'avvento dei più moderni processori Apple Silicon Mx, l'installer per Mac OS è suddiviso in new and old version, queste ultime equipaggiate da processori Intel.
+Per conoscere il processore che monta il tuo Mac basta andare in alto a sinistra e premere l'icona della "mela" e poi "INformazioni su questo Mac".
 
 # A.1.3 Linux
 
-R comes preinstalled on many Linux systems, but you’ll want the newest version of R if yours is out of date. The CRAN website provides files to build R from source on Debian, Redhat, SUSE, and Ubuntu systems under the link “Download R for Linux.” Click the link and then follow the directory trail to the version of Linux you wish to install on. The exact installation procedure will vary depending on the Linux system you use. CRAN guides the process by grouping each set of source files with documentation or README files that explain how to install on your system.
+R è preinstallato su molti sistemi Linux, ma ti consiglio di aggiornare, nel caso, alla versione più recente. Il sito Web CRAN fornisce file per creare R dal sorgente su sistemi Debian, Redhat, SUSE e Ubuntu sotto il collegamento "Scarica R per Linux". Fare clic sul collegamento e quindi seguire il percorso della directory fino alla versione di Linux su cui si desidera installare. L'esatta procedura di installazione varierà a seconda del sistema Linux utilizzato. CRAN guida il processo raggruppando ogni serie di file sorgente con documentazione o file README che spiegano come installare sul tuo sistema.
 
 # A. 2 RStudio
 
-RStudio is an Integrated Development Environment (IDE) for R, a programming language for statistical computing and graphics. It is available in two formats: RStudio Desktop is a regular desktop application while RStudio Server runs on a remote server and allows accessing RStudio using a web browser.
-You can download it for free [here](https://www.rstudio.com/products/rstudio/download/#download). Scroll down and choose the installer that fits your OS.
+RStudio è un ambiente di sviluppo integrato (IDE) per R, un linguaggio di programmazione per il calcolo statistico e la grafica. È disponibile in due formati: RStudio Desktop è una normale applicazione desktop mentre RStudio Server viene eseguito su un server remoto e consente di accedere a RStudio utilizzando un browser web.
+Puoi scaricarlo gratuitamente [qui](https://www.rstudio.com/products/rstudio/download/#download). Scorri verso il basso e scegli il programma di installazione adatto al tuo sistema operativo.
 
-# Useful infos
+# Informazioni utili
 
-Please, remember that for the use of RStudio is MANDATORY to have R first installed on your PC.
+Ricordiamo che per l'utilizzo di RStudio è **OBBLIGATORIO** avere R prima installato sul proprio PC.
 
